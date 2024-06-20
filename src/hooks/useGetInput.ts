@@ -1,6 +1,6 @@
 export const useGetInput = () => {
     return  async () => {
-        const response = await fetch('http://localhost:8000/list', {
+        const response = await fetch('http://localhost/list', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
